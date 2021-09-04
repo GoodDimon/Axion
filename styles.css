@@ -11,19 +11,17 @@
 }
 
 body {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
   font-family: 'gothampro-bold';
   font-size: 12px;
   color: #000;
 
 }
 .wrapper {
-	width: 100%;
-	max-width: 1170px;
-	margin: 0 auto;
-}
-
-.conteiner {
-  width: 88%;
+	position: relative;
+	width: 88%;
   margin: 0 auto;
 }
 
@@ -76,4 +74,15 @@ body {
 
 .flag {
   padding-left: 35px;	
+}
+
+.intro {
+
+}
+
+.intro__img {
+	width: 100%;
+	max-width: 1030px;
+	position: absolute;
+	z-index: -1;
 }
