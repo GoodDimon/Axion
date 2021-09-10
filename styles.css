@@ -71,8 +71,6 @@ body {
 
 .menu__item:hover {
   opacity: 1;
- 
- 
 }
 
 .menu__item > span {
@@ -192,6 +190,10 @@ body {
   color: black;
 }
 
+.batton__arrow_shift div {
+  left: 95px;
+}
+
  .batton__arrow_black div,
  .batton__arrow_black div::after,
  .batton__arrow_black div::before {
@@ -199,7 +201,7 @@ body {
 }
 
 .product {
-  margin-bottom: 46px;
+  margin-bottom: 51px;
 }
 
 .product__title {
@@ -313,7 +315,43 @@ body {
   height: 9px;
 }
 
+.video-block {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
 
+.video-block__left {
+  position: relative;
+  padding: 67px 33px;
+}
+
+.video-block__play {
+  position: absolute;
+  top: 44%;
+  left: 46%;
+}
+.video-block__play:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.video-block__right {
+  padding: 0 41px 0 9px;
+  height: 191px;
+}
+
+.video-block__title {
+  font: 500 22px/27px 'gothampro-medium', arial, helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+.video-block__text {
+  font: 300 14px/17px 'gothampro-light', arial, helvetica, sans-serif;
+  margin-bottom: 22px;
+}
 
 
 
