@@ -361,7 +361,7 @@ body {
 
 .stories-block {
   text-align: center;
-  margin-bottom: 78px
+  margin-bottom: 74px
 }
 
 .stories {
@@ -390,6 +390,7 @@ body {
 }
 
 .stories__text {
+  max-width: 303px;
   font: 300 14px/17px 'gothampro-light', arial, helvetica, sans-serif;;
   margin-bottom: 17px;
 }
@@ -399,6 +400,26 @@ body {
   margin-left: 50%;
   color: #000;
   opacity: 0.3;
+}
+
+.monochrome-block {
+  margin-bottom: 79px;
+}
+
+.monochrome-block__hashtag {
+  font-size: 18px;
+  color: #000000;
+  opacity: 0.3;
+  text-align: right;
+  margin-bottom: 9px;
+}
+.monochrome-block__conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.monochrome-block__img {
+  display: inline-block;
 }
 
 
