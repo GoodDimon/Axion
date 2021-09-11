@@ -45,6 +45,10 @@ body {
 	margin-left: 36px;
 }
 
+.header-right .menu__item:last-child:hover::after {
+  width: 70%;
+}
+
 .menu__item {
   position: relative;
   opacity: .8;
