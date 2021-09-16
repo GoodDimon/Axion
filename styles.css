@@ -284,6 +284,12 @@ body {
   margin-left: 8px;
   border-radius: 50%;
   background-color: #C4C4C4;
+  transition: width .2s, height .2s;
+}
+
+.circle__item:hover {
+  width: 9px;
+  height: 9px;
 }
 
 .circle__item_black {
@@ -314,10 +320,10 @@ body {
   background-color:  #257DA9
 }
 
-.circle__item_big {
+/*.circle__item_big {
   width: 9px;
   height: 9px;
-}
+}*/
 
 .video-block {
   background-color: #000;
